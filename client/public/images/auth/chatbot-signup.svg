@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    .bg { fill: #f8f9fa; }
+    .device { fill: #e5e7eb; stroke: #1f2937; stroke-width: 3; }
+    .screen { fill: #1e3a8a; }
+    .button { fill: #4b5563; }
+    .light { fill: #60a5fa; }
+    .circuit { fill: none; stroke: #1f2937; stroke-width: 2; }
+    .node { fill: #60a5fa; }
+    .chat-bubble { fill: white; stroke: #1f2937; stroke-width: 2; }
+    .text { font-family: Arial, sans-serif; fill: #1f2937; }
+    .ai-text { font-family: Arial, sans-serif; fill: white; }
+    .data-flow { fill: none; stroke: #60a5fa; stroke-width: 2; stroke-dasharray: 5,5; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="800" height="600" class="bg" />
+  
+  <!-- Circuit background pattern -->
+  <g>
+    <path class="circuit" d="M100,100 L200,100 L200,200 L300,200 L300,300" />
+    <path class="circuit" d="M700,100 L600,100 L600,200 L500,200 L500,300" />
+    <path class="circuit" d="M100,500 L200,500 L200,400 L300,400 L300,300" />
+    <path class="circuit" d="M700,500 L600,500 L600,400 L500,400 L500,300" />
+    <circle cx="200" cy="100" r="5" class="node" />
+    <circle cx="200" cy="200" r="5" class="node" />
+    <circle cx="300" cy="200" r="5" class="node" />
+    <circle cx="300" cy="300" r="5" class="node" />
+    <circle cx="600" cy="100" r="5" class="node" />
+    <circle cx="600" cy="200" r="5" class="node" />
+    <circle cx="500" cy="200" r="5" class="node" />
+    <circle cx="500" cy="300" r="5" class="node" />
+    <circle cx="200" cy="500" r="5" class="node" />
+    <circle cx="200" cy="400" r="5" class="node" />
+    <circle cx="300" cy="400" r="5" class="node" />
+    <circle cx="600" cy="500" r="5" class="node" />
+    <circle cx="600" cy="400" r="5" class="node" />
+    <circle cx="500" cy="400" r="5" class="node" />
+  </g>
+  
+  <!-- AI Chatbot System -->
+  <g transform="translate(400, 300)">
+    <!-- Main AI Hub -->
+    <circle cx="0" cy="0" r="80" class="screen" />
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="ai-text" font-size="18">AI ENGINE</text>
+    <text x="0" y="25" text-anchor="middle" dominant-baseline="middle" class="ai-text" font-size="14">Processing</text>
+    
+    <!-- Connection lines -->
+    <path class="data-flow" d="M-80,0 H-150" />
+    <path class="data-flow" d="M80,0 H150" />
+    <path class="data-flow" d="M0,-80 V-150" />
+    <path class="data-flow" d="M0,80 V150" />
+    
+    <!-- Connected devices -->
+    <g transform="translate(-200, 0)">
+      <rect x="-60" y="-40" width="120" height="80" rx="10" class="device" />
+      <rect x="-40" y="-25" width="80" height="50" rx="5" class="screen" />
+      <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="ai-text" font-size="12">STORE DATA</text>
+    </g>
+    
+    <g transform="translate(200, 0)">
+      <rect x="-60" y="-40" width="120" height="80" rx="10" class="device" />
+      <rect x="-40" y="-25" width="80" height="50" rx="5" class="screen" />
+      <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="ai-text" font-size="12">USER DATA</text>
+    </g>
+    
+    <g transform="translate(0, -200)">
+      <rect x="-60" y="-40" width="120" height="80" rx="10" class="device" />
+      <rect x="-40" y="-25" width="80" height="50" rx="5" class="screen" />
+      <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="ai-text" font-size="12">CHATBOT</text>
+    </g>
+    
+    <g transform="translate(0, 200)">
+      <rect x="-60" y="-40" width="120" height="80" rx="10" class="device" />
+      <rect x="-40" y="-25" width="80" height="50" rx="5" class="screen" />
+      <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="ai-text" font-size="12">ANALYTICS</text>
+    </g>
+  </g>
+  
+  <!-- Chat bubbles -->
+  <g transform="translate(600, 150)">
+    <rect x="-90" y="-30" width="180" height="60" rx="10" class="chat-bubble" />
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="text" font-size="16">How can I help with your shopping?</text>
+  </g>
+  
+  <g transform="translate(580, 230)">
+    <rect x="-70" y="-25" width="140" height="50" rx="10" class="chat-bubble" />
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="text" font-size="14">I need product recommendations</text>
+  </g>
+  
+  <g transform="translate(600, 300)">
+    <rect x="-90" y="-30" width="180" height="60" rx="10" class="chat-bubble" />
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" class="text" font-size="16">Here are some items based on your preferences</text>
+  </g>
+</svg>

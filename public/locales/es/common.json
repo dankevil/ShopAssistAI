@@ -1,0 +1,142 @@
+{
+  "app": {
+    "title": "Chatbot AI para Shopify",
+    "subtitle": "Mejora la experiencia de tus clientes con IA",
+    "loading": "Cargando..."
+  },
+  "navigation": {
+    "dashboard": "Panel de Control",
+    "conversations": "Conversaciones",
+    "faqs": "Preguntas Frecuentes",
+    "settings": "Configuración",
+    "customize": "Personalizar",
+    "embed": "Código de Inserción",
+    "shopify": "Shopify",
+    "logout": "Cerrar Sesión",
+    "recommendations": "Recomendaciones de Productos"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "email": "Correo Electrónico",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?",
+    "loginSuccess": "Sesión iniciada con éxito",
+    "registerSuccess": "Registro exitoso",
+    "logoutSuccess": "Sesión cerrada con éxito"
+  },
+  "chat": {
+    "title": "Chatea con nosotros",
+    "placeholder": "Escribe tu mensaje aquí...",
+    "send": "Enviar",
+    "welcomeMessage": "¡Hola! ¿Cómo puedo ayudarte hoy?",
+    "connecting": "Conectando...",
+    "tryAgain": "Intentar de nuevo",
+    "aiTyping": "La IA está escribiendo...",
+    "productSuggestion": "Puede que te interesen estos productos:",
+    "orderStatus": "El estado de tu pedido es:"
+  },
+  "settings": {
+    "title": "Configuración",
+    "save": "Guardar Cambios",
+    "apiKeys": "Claves API",
+    "openaiKey": "Clave API de OpenAI",
+    "shopifySection": "Integración con Shopify",
+    "shopifyDomain": "Dominio de la Tienda",
+    "shopifyApiKey": "Clave API de Shopify",
+    "shopifySecretKey": "Clave Secreta de Shopify",
+    "language": "Configuración de Idioma",
+    "defaultLanguage": "Idioma Predeterminado",
+    "supportedLanguages": "Idiomas Compatibles",
+    "addLanguage": "Añadir Idioma",
+    "removeLanguage": "Eliminar"
+  },
+  "customize": {
+    "title": "Personalizar Chatbot",
+    "appearance": "Apariencia",
+    "brandColor": "Color de Marca",
+    "chatTitle": "Título del Chat",
+    "welcomeMessage": "Mensaje de Bienvenida",
+    "logoUrl": "URL del Logo (opcional)",
+    "buttonPosition": "Posición del Botón",
+    "left": "Izquierda",
+    "right": "Derecha",
+    "preview": "Vista Previa"
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "categories": "Categorías",
+    "addCategory": "Añadir Categoría",
+    "editCategory": "Editar Categoría",
+    "deleteCategory": "Eliminar Categoría",
+    "categoryName": "Nombre de Categoría",
+    "categoryDescription": "Descripción de Categoría",
+    "addFaq": "Añadir Pregunta",
+    "editFaq": "Editar Pregunta",
+    "deleteFaq": "Eliminar Pregunta",
+    "question": "Pregunta",
+    "answer": "Respuesta",
+    "status": "Estado",
+    "active": "Activa",
+    "inactive": "Inactiva",
+    "sortOrder": "Orden",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "conversations": {
+    "title": "Conversaciones",
+    "noConversations": "Aún no hay conversaciones",
+    "status": "Estado",
+    "open": "Abierta",
+    "closed": "Cerrada",
+    "timestamp": "Fecha y Hora",
+    "customer": "Cliente",
+    "actions": "Acciones",
+    "view": "Ver",
+    "close": "Cerrar",
+    "reopen": "Reabrir"
+  },
+  "embed": {
+    "title": "Código de Inserción",
+    "description": "Copia y pega este fragmento de código en tu sitio web para añadir el chatbot.",
+    "instructions": "Añade este código antes de la etiqueta de cierre </body>",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "installInstructions": "Instrucciones de Instalación",
+    "shopifyInstructions": "Para tiendas Shopify, ve a Tienda Online > Temas > Editar HTML/CSS y pega esto en theme.liquid"
+  },
+  "recommendations": {
+    "title": "Recomendaciones de Productos",
+    "testing": "Interfaz de Prueba",
+    "customerQuery": "Consulta del Cliente",
+    "testButton": "Probar Recomendación",
+    "results": "Resultados",
+    "noResults": "Aún no hay recomendaciones",
+    "settings": "Configuración de Recomendaciones",
+    "enableRecommendations": "Activar recomendaciones de productos",
+    "maxProducts": "Máximo de productos a recomendar",
+    "confidenceThreshold": "Umbral de confianza",
+    "save": "Guardar Configuración"
+  },
+  "errors": {
+    "general": "Ocurrió un error",
+    "login": "Error al iniciar sesión. Por favor verifica tus credenciales.",
+    "register": "Error al registrarse. Por favor inténtalo de nuevo.",
+    "notFound": "Página no encontrada",
+    "unauthorized": "Acceso no autorizado",
+    "network": "Error de red. Por favor verifica tu conexión."
+  },
+  "customerProfile": {
+    "title": "Perfiles de Clientes",
+    "firstSeen": "Primera Visita",
+    "lastSeen": "Última Visita",
+    "conversationCount": "Conversaciones",
+    "preferences": "Preferencias",
+    "orders": "Pedidos",
+    "noProfiles": "Aún no hay perfiles de clientes",
+    "viewProfile": "Ver Perfil"
+  }
+}

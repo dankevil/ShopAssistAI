@@ -1,0 +1,170 @@
+{
+  "app": {
+    "title": "AI-Powered Shopify Chatbot",
+    "loading": "Loading...",
+    "welcome": "Welcome to your AI-Powered Shopify Chatbot"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "conversations": "Conversations",
+    "products": "Products",
+    "faqs": "FAQs",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "submit": "Submit",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginSuccessful": "Login Successful",
+    "registerSuccessful": "Registration Successful"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "statistics": "Statistics",
+    "recentConversations": "Recent Conversations",
+    "activeUsers": "Active Users",
+    "popularProducts": "Popular Products",
+    "faqs": "FAQs",
+    "todayStats": "Today's Stats",
+    "weeklyStats": "Weekly Stats",
+    "monthlyStats": "Monthly Stats"
+  },
+  "conversations": {
+    "title": "Conversations",
+    "newMessage": "New Message",
+    "reply": "Reply",
+    "search": "Search conversations",
+    "status": {
+      "open": "Open",
+      "closed": "Closed",
+      "pending": "Pending"
+    },
+    "labels": {
+      "high": "High Priority",
+      "medium": "Medium Priority",
+      "low": "Low Priority"
+    },
+    "empty": "No conversations found",
+    "loadMore": "Load More"
+  },
+  "products": {
+    "title": "Products",
+    "search": "Search products",
+    "category": "Category",
+    "price": "Price",
+    "inventory": "Inventory",
+    "empty": "No products found",
+    "loadMore": "Load More",
+    "recommendations": "Product Recommendations"
+  },
+  "faqs": {
+    "title": "FAQs",
+    "categories": "Categories",
+    "addCategory": "Add Category",
+    "addFaq": "Add FAQ",
+    "question": "Question",
+    "answer": "Answer",
+    "category": "Category",
+    "active": "Active",
+    "saveChanges": "Save Changes",
+    "search": "Search FAQs",
+    "empty": "No FAQs found"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your account preferences",
+      "email": "Email",
+      "username": "Username",
+      "changePassword": "Change Password"
+    },
+    "api": {
+      "title": "API Settings",
+      "description": "Manage API keys and integrations",
+      "shopifyApiKey": "Shopify API Key",
+      "shopifyApiSecret": "Shopify API Secret"
+    },
+    "language": {
+      "title": "Language Settings",
+      "description": "Configure language preferences for your chatbot",
+      "defaultLanguage": "Default Language",
+      "defaultDescription": "This language will be used as the default for all chatbot conversations",
+      "currentLanguage": "Current UI Language",
+      "supportedLanguages": "Supported Languages"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "description": "Customize the look and feel of your chatbot",
+      "brandColor": "Brand Color",
+      "chatTitle": "Chat Title",
+      "welcomeMessage": "Welcome Message",
+      "logoUrl": "Logo URL"
+    },
+    "saveSettings": "Save Settings",
+    "saving": "Saving..."
+  },
+  "chatbot": {
+    "placeholder": "Type your message here...",
+    "send": "Send",
+    "typing": "AI Assistant is typing...",
+    "welcomeDefault": "Hi there! How can I help you today?",
+    "loadMore": "Load earlier messages"
+  },
+  "errors": {
+    "general": "An error occurred",
+    "login": "Invalid username or password",
+    "register": "Registration failed",
+    "network": "Network error",
+    "permission": "You don't have permission to access this resource",
+    "notFound": "Resource not found",
+    "validation": "Validation error"
+  },
+  "success": {
+    "saved": "Changes saved successfully",
+    "updated": "Updated successfully",
+    "created": "Created successfully",
+    "deleted": "Deleted successfully"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "submit": "Submit",
+    "submitting": "Submitting..."
+  },
+  "feedback": {
+    "helpful": "Helpful",
+    "notHelpful": "Not helpful",
+    "additionalComments": "Additional comments (optional)",
+    "thankyou": "Thank you for your feedback",
+    "received": "We've received your feedback",
+    "error": "Error submitting feedback",
+    "stats": {
+      "title": "Feedback Statistics",
+      "positive": "Positive",
+      "negative": "Negative",
+      "total": "Total Feedback",
+      "positiveRate": "Positive Rate"
+    }
+  }
+}

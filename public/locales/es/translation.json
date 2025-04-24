@@ -1,0 +1,153 @@
+{
+  "app": {
+    "title": "Chatbot de Shopify con IA",
+    "loading": "Cargando...",
+    "welcome": "Bienvenido a tu Chatbot de Shopify con IA"
+  },
+  "navigation": {
+    "dashboard": "Panel de Control",
+    "conversations": "Conversaciones",
+    "products": "Productos",
+    "faqs": "Preguntas Frecuentes",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "username": "Nombre de Usuario",
+    "password": "Contraseña",
+    "email": "Correo Electrónico",
+    "submit": "Enviar",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?",
+    "loginSuccessful": "Inicio de sesión exitoso",
+    "registerSuccessful": "Registro exitoso"
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "overview": "Resumen",
+    "statistics": "Estadísticas",
+    "recentConversations": "Conversaciones Recientes",
+    "activeUsers": "Usuarios Activos",
+    "popularProducts": "Productos Populares",
+    "faqs": "Preguntas Frecuentes",
+    "todayStats": "Estadísticas de Hoy",
+    "weeklyStats": "Estadísticas Semanales",
+    "monthlyStats": "Estadísticas Mensuales"
+  },
+  "conversations": {
+    "title": "Conversaciones",
+    "newMessage": "Nuevo Mensaje",
+    "reply": "Responder",
+    "search": "Buscar conversaciones",
+    "status": {
+      "open": "Abierto",
+      "closed": "Cerrado",
+      "pending": "Pendiente"
+    },
+    "labels": {
+      "high": "Alta Prioridad",
+      "medium": "Prioridad Media",
+      "low": "Baja Prioridad"
+    },
+    "empty": "No se encontraron conversaciones",
+    "loadMore": "Cargar Más"
+  },
+  "products": {
+    "title": "Productos",
+    "search": "Buscar productos",
+    "category": "Categoría",
+    "price": "Precio",
+    "inventory": "Inventario",
+    "empty": "No se encontraron productos",
+    "loadMore": "Cargar Más",
+    "recommendations": "Recomendaciones de Productos"
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "categories": "Categorías",
+    "addCategory": "Añadir Categoría",
+    "addFaq": "Añadir Pregunta",
+    "question": "Pregunta",
+    "answer": "Respuesta",
+    "category": "Categoría",
+    "active": "Activo",
+    "saveChanges": "Guardar Cambios",
+    "search": "Buscar Preguntas",
+    "empty": "No se encontraron preguntas frecuentes"
+  },
+  "settings": {
+    "title": "Configuración",
+    "profile": "Perfil",
+    "account": {
+      "title": "Configuración de Cuenta",
+      "description": "Administra las preferencias de tu cuenta",
+      "email": "Correo Electrónico",
+      "username": "Nombre de Usuario",
+      "changePassword": "Cambiar Contraseña"
+    },
+    "api": {
+      "title": "Configuración de API",
+      "description": "Administra claves API e integraciones",
+      "shopifyApiKey": "Clave API de Shopify",
+      "shopifyApiSecret": "Secreto API de Shopify"
+    },
+    "language": {
+      "title": "Configuración de Idioma",
+      "description": "Configura las preferencias de idioma para tu chatbot",
+      "defaultLanguage": "Idioma Predeterminado",
+      "defaultDescription": "Este idioma se utilizará como predeterminado para todas las conversaciones del chatbot",
+      "currentLanguage": "Idioma Actual de la Interfaz",
+      "supportedLanguages": "Idiomas Soportados"
+    },
+    "appearance": {
+      "title": "Apariencia",
+      "description": "Personaliza el aspecto de tu chatbot",
+      "brandColor": "Color de Marca",
+      "chatTitle": "Título del Chat",
+      "welcomeMessage": "Mensaje de Bienvenida",
+      "logoUrl": "URL del Logo"
+    },
+    "saveSettings": "Guardar Configuración",
+    "saving": "Guardando..."
+  },
+  "chatbot": {
+    "placeholder": "Escribe tu mensaje aquí...",
+    "send": "Enviar",
+    "typing": "Asistente IA está escribiendo...",
+    "welcomeDefault": "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "loadMore": "Cargar mensajes anteriores"
+  },
+  "errors": {
+    "general": "Ha ocurrido un error",
+    "login": "Nombre de usuario o contraseña inválidos",
+    "register": "El registro falló",
+    "network": "Error de red",
+    "permission": "No tienes permiso para acceder a este recurso",
+    "notFound": "Recurso no encontrado",
+    "validation": "Error de validación"
+  },
+  "success": {
+    "saved": "Cambios guardados con éxito",
+    "updated": "Actualizado con éxito",
+    "created": "Creado con éxito",
+    "deleted": "Eliminado con éxito"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "noResults": "No se encontraron resultados",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  }
+}

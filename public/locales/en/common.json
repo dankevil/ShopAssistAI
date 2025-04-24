@@ -1,0 +1,142 @@
+{
+  "app": {
+    "title": "AI Shopify Chatbot",
+    "subtitle": "Enhance your customer experience with AI",
+    "loading": "Loading..."
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "conversations": "Conversations",
+    "faqs": "FAQs",
+    "settings": "Settings",
+    "customize": "Customize",
+    "embed": "Embed Code",
+    "shopify": "Shopify",
+    "logout": "Logout",
+    "recommendations": "Product Recommendations"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginSuccess": "Successfully logged in",
+    "registerSuccess": "Successfully registered",
+    "logoutSuccess": "Successfully logged out"
+  },
+  "chat": {
+    "title": "Chat with us",
+    "placeholder": "Type your message here...",
+    "send": "Send",
+    "welcomeMessage": "Hello! How can I help you today?",
+    "connecting": "Connecting...",
+    "tryAgain": "Try again",
+    "aiTyping": "AI is typing...",
+    "productSuggestion": "You might be interested in these products:",
+    "orderStatus": "Your order status is:"
+  },
+  "settings": {
+    "title": "Settings",
+    "save": "Save Changes",
+    "apiKeys": "API Keys",
+    "openaiKey": "OpenAI API Key",
+    "shopifySection": "Shopify Integration",
+    "shopifyDomain": "Shop Domain",
+    "shopifyApiKey": "Shopify API Key",
+    "shopifySecretKey": "Shopify Secret Key",
+    "language": "Language Settings",
+    "defaultLanguage": "Default Language",
+    "supportedLanguages": "Supported Languages",
+    "addLanguage": "Add Language",
+    "removeLanguage": "Remove"
+  },
+  "customize": {
+    "title": "Customize Chatbot",
+    "appearance": "Appearance",
+    "brandColor": "Brand Color",
+    "chatTitle": "Chat Title",
+    "welcomeMessage": "Welcome Message",
+    "logoUrl": "Logo URL (optional)",
+    "buttonPosition": "Button Position",
+    "left": "Left",
+    "right": "Right",
+    "preview": "Preview"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "categories": "Categories",
+    "addCategory": "Add Category",
+    "editCategory": "Edit Category",
+    "deleteCategory": "Delete Category",
+    "categoryName": "Category Name",
+    "categoryDescription": "Category Description",
+    "addFaq": "Add FAQ",
+    "editFaq": "Edit FAQ",
+    "deleteFaq": "Delete FAQ",
+    "question": "Question",
+    "answer": "Answer",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "sortOrder": "Sort Order",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "conversations": {
+    "title": "Conversations",
+    "noConversations": "No conversations yet",
+    "status": "Status",
+    "open": "Open",
+    "closed": "Closed",
+    "timestamp": "Timestamp",
+    "customer": "Customer",
+    "actions": "Actions",
+    "view": "View",
+    "close": "Close",
+    "reopen": "Reopen"
+  },
+  "embed": {
+    "title": "Embed Code",
+    "description": "Copy and paste this code snippet into your website to add the chatbot.",
+    "instructions": "Add this code before the closing </body> tag",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "installInstructions": "Installation Instructions",
+    "shopifyInstructions": "For Shopify stores, go to Online Store > Themes > Edit HTML/CSS and paste this in theme.liquid"
+  },
+  "recommendations": {
+    "title": "Product Recommendations",
+    "testing": "Testing Interface",
+    "customerQuery": "Customer Query",
+    "testButton": "Test Recommendation",
+    "results": "Results",
+    "noResults": "No recommendations yet",
+    "settings": "Recommendation Settings",
+    "enableRecommendations": "Enable product recommendations",
+    "maxProducts": "Maximum products to recommend",
+    "confidenceThreshold": "Confidence threshold",
+    "save": "Save Settings"
+  },
+  "errors": {
+    "general": "An error occurred",
+    "login": "Login failed. Please check your credentials.",
+    "register": "Registration failed. Please try again.",
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "network": "Network error. Please check your connection."
+  },
+  "customerProfile": {
+    "title": "Customer Profiles",
+    "firstSeen": "First Seen",
+    "lastSeen": "Last Seen",
+    "conversationCount": "Conversations",
+    "preferences": "Preferences",
+    "orders": "Orders",
+    "noProfiles": "No customer profiles yet",
+    "viewProfile": "View Profile"
+  }
+}
